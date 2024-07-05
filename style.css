@@ -1,0 +1,77 @@
+
+        .autocomplete {
+            position: relative;
+            display: inline-block;
+        }
+
+        .autocomplete-items {
+            position: absolute;
+            border: 1px solid #d4d4d4;
+            border-bottom: none;
+            border-top: none;
+            z-index: 99;
+            top: 100%;
+            left: 0;
+            right: 0;
+        }
+
+        .autocomplete-items div {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #fff;
+            border-bottom: 1px solid #d4d4d4;
+        }
+
+        .autocomplete-items div:hover {
+            background-color: #e9e9e9;
+        }
+
+        .autocomplete-active {
+            background-color: DodgerBlue !important;
+            color: #ffffff;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #0034ff;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 2px;
+            color: white;
+        }
+
+        .tag .remove-tag {
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        thead {
+            background-color: #009879;
+            color: #ffffff;
+        }
+
+        th,
+        td {
+            padding: 12px 15px;
+            border: 1px solid #dddddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f3f3f3;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+    

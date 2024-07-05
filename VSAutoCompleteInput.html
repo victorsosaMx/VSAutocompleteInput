@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Autocomplete Email Input</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Autocomplete Email Input</h2>
+        <p>Empieza a teclear un nombre para autocompletar:</p>
+
+        <div class="autocomplete">
+            <input id="autocompleteInput" type="text" placeholder="Nombre" style="width:400px;height: 50px ;">
+            <div id="tagsContainer"></div>
+        </div>
+
+        <br><br>
+
+        <b>correos seleccionados:</b> <br>
+        <textarea id="txtCC" rows="4" cols="50" readonly></textarea>
+
+
+        <br>
+
+
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alejandro Pérez</td>
+                    <td>alejandro.perez@example.com</td>
+                </tr>
+                <tr>
+                    <td>María García</td>
+                    <td>maria.garcia@example.com</td>
+                </tr>
+                <tr>
+                    <td>Juan López</td>
+                    <td>juan.lopez@example.com</td>
+                </tr>
+                <tr>
+                    <td>Ana Martínez</td>
+                    <td>ana.martinez@example.com</td>
+                </tr>
+                <tr>
+                    <td>Carlos Sánchez</td>
+                    <td>carlos.sanchez@example.com</td>
+                </tr>
+                <tr>
+                    <td>Laura Fernández</td>
+                    <td>laura.fernandez@example.com</td>
+                </tr>
+                <tr>
+                    <td>Pedro Gómez</td>
+                    <td>pedro.gomez@example.com</td>
+                </tr>
+                <tr>
+                    <td>Elena Torres</td>
+                    <td>elena.torres@example.com</td>
+                </tr>
+                <tr>
+                    <td>Miguel Ramírez</td>
+                    <td>miguel.ramirez@example.com</td>
+                </tr>
+                <tr>
+                    <td>Carmen Díaz</td>
+                    <td>carmen.diaz@example.com</td>
+                </tr>
+                <tr>
+                    <td>Javier Muñoz</td>
+                    <td>javier.munoz@example.com</td>
+                </tr>
+                <tr>
+                    <td>Isabel Ruiz</td>
+                    <td>isabel.ruiz@example.com</td>
+                </tr>
+                <tr>
+                    <td>Luis Morales</td>
+                    <td>luis.morales@example.com</td>
+                </tr>
+                <tr>
+                    <td>Teresa Ortega</td>
+                    <td>teresa.ortega@example.com</td>
+                </tr>
+                <tr>
+                    <td>Francisco Vega</td>
+                    <td>francisco.vega@example.com</td>
+                </tr>
+                <tr>
+                    <td>Marta Herrera</td>
+                    <td>marta.herrera@example.com</td>
+                </tr>
+                <tr>
+                    <td>Sergio Navarro</td>
+                    <td>sergio.navarro@example.com</td>
+                </tr>
+                <tr>
+                    <td>Gloria Rivas</td>
+                    <td>gloria.rivas@example.com</td>
+                </tr>
+                <tr>
+                    <td>Raúl Castillo</td>
+                    <td>raul.castillo@example.com</td>
+                </tr>
+                <tr>
+                    <td>Patricia Romero</td>
+                    <td>patricia.romero@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
